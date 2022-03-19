@@ -1,10 +1,11 @@
 function doMathClicked () {
-	alert("I know you clicked the button. I know you didn't really do the math. You used Javascript for it, didn't you? You cheated. I don't want to do math with you anymore.")
-  // this function does basic math
-  document.getElementById('add-math').innerHTML = '6 + 5 = ' + (6 + 5)
-  document.getElementById('subtract-math').innerHTML = '7 - 3 =  ' + (7 - 3)
-  document.getElementById('multiply-math').innerHTML = '3 + 4 * 2 = ' + (3 + 4 * 2)
-  document.getElementById('divide-math').innerHTML = '(4 / 2) + 3 = ' + ((4 / 2) + 3)
-  document.getElementById('exponent-math').innerHTML = '5 + 2 ** 3 = ' + (5 + 2 ** 3)
-	document.getElementById('square-root-math').innerHTML = '√(81) = ' + Math.sqrt(81)
+	// Ominous message
+alert("I know you clicked the button. I know you didn't really do the math. You used Javascript for it, didn't you? You cheated. I don't want to do math with you anymore.")
+  // this function does math!!
+  document.getElementById('add-math').innerHTML = '75 + 43 =  ' + (75 + 43)
+  document.getElementById('subtract-math').innerHTML = '342 - 203 =  ' + (342 - 203)
+  document.getElementById('multiply-math').innerHTML = '87 + 103 * 333 =  ' + (87 + 103 * 333)
+  document.getElementById('divide-math').innerHTML = '(533 / 342) + 53 =  ' + ((533 / 342) + 53)
+  document.getElementById('exponent-math').innerHTML = '32 + 345 ** 3 =  ' + (32 + 345 ** 3)
+	document.getElementById('square-root-math').innerHTML = '√(327) = ' + Math.sqrt(327)
 }
